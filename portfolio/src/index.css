@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Indie+Flower&family=Roboto+Mono&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
 
 @layer base {
     body {
-        @apply font-[Roboto-Mono];
+        font-family: 'Cormorant SC'
     }
     li {
         @apply px-4;
