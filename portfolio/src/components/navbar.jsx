@@ -1,6 +1,8 @@
-import React, {useState} from 'react'
-import TempLogo from "../assets/github.png"
-import {FaBars, FaTimes} from "react-icons/fa"
+import React, {useState} from 'react';
+import TempLogo from "../assets/github.png";
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Navbar = () => {
 
@@ -29,7 +31,6 @@ const Navbar = () => {
       {/*Hamburger Menu*/}
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
-        
       </div>
 
       {/*Mobile Menu*/}
@@ -40,6 +41,36 @@ const Navbar = () => {
           <li className='py-4 text-3xl'>Portfolio</li>
           <li className='py-4 text-3xl'>Contact</li>
       </ul>
+
+      {/*Social Icons*/}
+      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+        <ul>
+        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#554D74]'>
+            <a className='flex justify-between items-center w-full text-gray-300' 
+            href='https://www.linkedin.com/in/qurooj/'>
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#554D74]'>
+            <a className='flex justify-between items-center w-full text-gray-300' 
+            href='https://github.com/thelittleone1'>
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#554D74]'>
+            <a className='flex justify-between items-center w-full text-gray-300' 
+            href='/'>
+              Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#554D74]'>
+            <a className='flex justify-between items-center w-full text-gray-300' 
+            href='../assets/ResumeV11.pdf'>
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
 
     </div>
   )
