@@ -11,7 +11,7 @@ import TAILWIND from '../assets/tailwind.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#D3D9E9]'>
+    <div id='skillsForm' name='skills' className='w-full h-screen bg-[#D3D9E9]'>
         {/*Main Container*/}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
