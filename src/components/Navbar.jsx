@@ -14,7 +14,7 @@ const Navbar = () => {
     <div id='home' className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#31293F] text-gray-100">
       {/* Logo Styling, temporarily using github icon for logo */}
       <div>
-        <img src={TempLogo} alt="Temp Logo Image" style={{width: '50px'}}/>
+        <img src={TempLogo} alt="TempLogo" style={{width: '50px'}}/>
       </div>
 
       {/* Styling for Navbar tabs */}
