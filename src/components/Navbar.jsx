@@ -3,6 +3,7 @@ import TempLogo from "../assets/github.png";
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import pdf from '../assets/ResumeV11.pdf';
 
 const Navbar = () => {
 
@@ -65,7 +66,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#554D74]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-            href='../assets/ResumeV11.pdf'>
+            href={pdf} target={"_blank"} rel="noreferrer">
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
