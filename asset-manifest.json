@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/React_Portfolio/static/css/main.59317ab3.css",
-    "main.js": "/React_Portfolio/static/js/main.49428551.js",
+    "main.js": "/React_Portfolio/static/js/main.ddf34574.js",
     "static/media/devise_login.png": "/React_Portfolio/static/media/devise_login.e1e70dd65cbeeea355b5.png",
     "static/media/eccom.png": "/React_Portfolio/static/media/eccom.89b31f9d2cddd9b4dfc6.png",
     "static/media/Movieish.png": "/React_Portfolio/static/media/Movieish.8522a9bed2dd7f5ea208.png",
     "static/media/sql.png": "/React_Portfolio/static/media/sql.71385d4337f54ec32a00.png",
     "static/media/teamProfileGen.png": "/React_Portfolio/static/media/teamProfileGen.bc53c663eb181ca41aba.png",
     "static/media/landingpage.png": "/React_Portfolio/static/media/landingpage.e2c393bbec03213aa5b8.png",
+    "static/media/ResumeV11.pdf": "/React_Portfolio/static/media/ResumeV11.562472ae9575d79d49bb.pdf",
     "static/media/react.png": "/React_Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/React_Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/React_Portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -18,10 +19,10 @@
     "static/media/javascript.png": "/React_Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/React_Portfolio/index.html",
     "main.59317ab3.css.map": "/React_Portfolio/static/css/main.59317ab3.css.map",
-    "main.49428551.js.map": "/React_Portfolio/static/js/main.49428551.js.map"
+    "main.ddf34574.js.map": "/React_Portfolio/static/js/main.ddf34574.js.map"
   },
   "entrypoints": [
     "static/css/main.59317ab3.css",
-    "static/js/main.49428551.js"
+    "static/js/main.ddf34574.js"
   ]
 }
