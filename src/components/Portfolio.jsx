@@ -5,6 +5,7 @@ import Movieish from '../assets/Movieish.png';
 import TeamP from '../assets/teamProfileGen.png';
 import eccon from '../assets/eccom.png'
 import sql from '../assets/sql.png'
+import ThoughtsForShots from '../assets/ThoughtsForShots.png';
 
 export const Portfolio = () => {
   return (
@@ -37,8 +38,8 @@ export const Portfolio = () => {
                 </div>
 
                 <div className='shadow-md shadow-[#c6d3fa] hover:scale-110'> 
-                    <a href='https://github.com/thelittleone1/teamProfileGenerator.git'>
-                        <img src={eccon} alt='Ecomerce Png' />
+                    <a href='https://github.com/elarso2/ThoughtsForShots.git'>
+                        <img src={ThoughtsForShots} alt='Ecomerce Png' />
                     </a>
                 </div>
 
